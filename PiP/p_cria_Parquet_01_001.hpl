@@ -522,13 +522,13 @@
         <target_field>flxrecebi</target_field>
       </field>
     </fields>
-    <filename_base>/private/nfs/iceberg_files/deng20</filename_base>
+    <filename_base>${PARQUET_FILES_DIR}</filename_base>
     <filename_create_parent_folders>Y</filename_create_parent_folders>
-    <filename_datetime_format>yyyyMMdd-HHmmss</filename_datetime_format>
+    <filename_datetime_format>yyyy/MM/dd HH:mm:ss.000</filename_datetime_format>
     <filename_ext>parquet</filename_ext>
     <filename_include_copy>Y</filename_include_copy>
     <filename_include_date>N</filename_include_date>
-    <filename_include_datetime>N</filename_include_datetime>
+    <filename_include_datetime>Y</filename_include_datetime>
     <filename_include_split>Y</filename_include_split>
     <filename_include_time>N</filename_include_time>
     <filename_split_size>1000000</filename_split_size>

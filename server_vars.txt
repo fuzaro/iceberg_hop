@@ -1,0 +1,7 @@
+{
+  "variables" : [ {
+    "name" : "PARQUET_FILES_DIR",
+    "value" : "/mnt/timemachine/iceberg_files/",
+    "description" : ""
+  } ]
+}
