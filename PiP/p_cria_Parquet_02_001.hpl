@@ -42,10 +42,6 @@
     <dictionary_page_size>1048576</dictionary_page_size>
     <fields>
       <field>
-        <source_field>id</source_field>
-        <target_field>id</target_field>
-      </field>
-      <field>
         <source_field>dt_notific</source_field>
         <target_field>dt_notific</target_field>
       </field>
