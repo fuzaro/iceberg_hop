@@ -184,7 +184,7 @@
     <execution_log_text_field>ExecutionLogText</execution_log_text_field>
     <execution_log_channelid_field>ExecutionLogChannelId</execution_log_channelid_field>
     <result_rows_target_transform/>
-    <result_files_target_transform/>
+    <result_files_target_transform>p_cria_Parquet_02_001.hpl</result_files_target_transform>
     <result_files_file_name_field>FileName</result_files_file_name_field>
     <executors_output_transform/>
     <attributes/>
