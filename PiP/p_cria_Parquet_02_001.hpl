@@ -82,7 +82,7 @@
         <target_field>classi_fin</target_field>
       </field>
     </fields>
-    <filename_base>${PARQUET_FILES_DIR}</filename_base>
+    <filename_base>${PARQUET_FILES_DIR}new</filename_base>
     <filename_create_parent_folders>Y</filename_create_parent_folders>
     <filename_datetime_format>yyyy/MM/dd HH:mm:ss.000</filename_datetime_format>
     <filename_ext>parquet</filename_ext>
@@ -90,7 +90,7 @@
     <filename_include_date>Y</filename_include_date>
     <filename_include_datetime>N</filename_include_datetime>
     <filename_include_split>Y</filename_include_split>
-    <filename_include_time>N</filename_include_time>
+    <filename_include_time>Y</filename_include_time>
     <filename_split_size>100000</filename_split_size>
     <row_group_size>268435456</row_group_size>
     <version>2.0</version>
@@ -115,7 +115,19 @@
     <execute_each_row>N</execute_each_row>
     <limit>0</limit>
     <sql>SELECT
- *
+
+dt_notific	
+,nu_ano	
+,id_municip	
+,dt_sin_pri	
+,cs_sexo	
+,cs_raca	
+,sg_uf	
+,municipio	
+,classi_fin	
+
+
+
 FROM "public".${TABELA}</sql>
     <variables_active>Y</variables_active>
     <attributes/>
