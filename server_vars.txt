@@ -1,7 +1,11 @@
 {
   "variables" : [ {
     "name" : "PARQUET_FILES_DIR",
-    "value" : "/mnt/timemachine/iceberg_files/",
+    "value" : "/private/nfs/iceberg_files/air/",
+    "description" : ""
+  }, {
+    "name" : "SOURCE_FILES_DIR",
+    "value" : "/Users/luiz/DEVEL/DataSets/",
     "description" : ""
   } ]
 }

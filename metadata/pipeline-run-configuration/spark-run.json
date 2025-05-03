@@ -1,0 +1,30 @@
+{
+  "engineRunConfiguration": {
+    "BeamSparkPipelineEngine": {
+      "sparkMinReadTimeMillis": "",
+      "sparkMaster": "",
+      "sparkEnableSparkMetricSinks": false,
+      "streamingHopTransformsBufferSize": "500",
+      "sparkAppName": "",
+      "sparkCheckpointDir": "",
+      "sparkMaxRecordsPerBatch": "",
+      "userAgent": "Hop",
+      "sparkBatchIntervalMillis": "",
+      "azureBlobStorageEndpoint": "",
+      "azureBlobStorageKey": "",
+      "tempLocation": "/var/folders/hd/4j2z_z6n1lb3pn8wxw_bbq5r0000gn/T/",
+      "sparkCheckpointDurationMillis": "",
+      "fatJar": "",
+      "sparkBundleSize": "",
+      "sparkReadTimePercentage": "",
+      "streamingHopTransformsFlushInterval": "-1",
+      "azureBlobStorageAccount": ""
+    }
+  },
+  "defaultSelection": false,
+  "configurationVariables": [],
+  "name": "spark-run",
+  "description": "run Spark",
+  "dataProfile": "first-last",
+  "executionInfoLocationName": "local-audit"
+}
