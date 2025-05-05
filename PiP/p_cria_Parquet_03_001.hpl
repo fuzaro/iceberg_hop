@@ -498,7 +498,7 @@
       </field>
       <field>
         <name>Distance</name>
-        <type>Integer</type>
+        <type>String</type>
         <format>#</format>
         <currency>$</currency>
         <decimal>.</decimal>
