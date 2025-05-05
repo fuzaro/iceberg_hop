@@ -216,7 +216,7 @@
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
       <name>${SOURCE_FILES_DIR}</name>
-      <filemask>\b20[^\\]*\.csv$</filemask>
+      <filemask>\b[^\\]*\.csv$</filemask>
       <exclude_filemask/>
       <file_required>N</file_required>
       <include_subfolders>N</include_subfolders>
