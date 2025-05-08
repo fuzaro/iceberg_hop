@@ -158,7 +158,7 @@
         <target_field>LateAircraftDelay</target_field>
       </field>
     </fields>
-    <filename_base>${PARQUET_FILES_DIR}air</filename_base>
+    <filename_base>${PARQUET_FILES_DIR}airdata</filename_base>
     <filename_create_parent_folders>Y</filename_create_parent_folders>
     <filename_datetime_format>yyyyMMdd-HHmmss</filename_datetime_format>
     <filename_ext>parquet</filename_ext>
